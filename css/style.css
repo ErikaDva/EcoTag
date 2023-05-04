@@ -1,0 +1,274 @@
+/* General */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 1;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-padding-top: 69px; /* height of fixed header */
+    scroll-behavior: smooth;
+}
+
+/* Header */
+
+header {
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    background-color: black;
+    display: flex;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    opacity: 1;
+}
+
+header img {
+    margin-left: 20px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 10px;
+    opacity:0.9;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 0 10px;
+    opacity:0.9;
+}
+
+header nav li a {
+    color: seashell;
+}
+
+header nav li a:link {
+    text-decoration: none;
+}
+
+/*
+header nav li a:active {
+    border-bottom: 5px solid #359244;
+}
+*/
+/* works a bit
+header nav li a:active{
+    color: #359244;
+    border-bottom: 5px solid #359244;
+}
+*/
+
+header nav li a.active {
+    border-bottom: 5px solid #359244 !important;
+}
+
+/* Main */
+
+main {
+    padding-top: 69px;
+}
+
+/* Mission */
+
+#forside {
+    background-image: url('../files/echo-grid-kmo52azVCzg-unsplash_edited.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forside-text-header {
+    background-color: black;
+    width: 1200px;
+    /* width: 100%; */
+    opacity: 1;
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.forside-text-header h2, h4 {
+    flex-basis:100%;
+	width:100%;
+    padding: 10px;
+    margin: 0;
+}
+
+/* Featured Jobs */
+
+#ydelser {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.featured-job-items {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.job img {
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.job img:hover {
+    transform: scale(1.05);
+}
+
+.job h4 {
+    margin-top: 10px;
+}
+
+/* Om os */
+#about {
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.about-image {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-image img {
+    display: inline-block;
+    max-height: 350px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.about-image img:first-child {
+    margin-right: 25px;
+}
+
+.about-image img:last-child {
+    margin-left: 25px;
+}
+
+/* Locations */
+
+#Materialer {
+    background-image: url('../files/cupaclad201-vanguard-colegio-de-soro-13-amb-b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.location-boxes {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.location {
+    opacity: 1;
+    background-color: black;
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+#Materialer h2 {
+    margin-bottom: 15px;
+}
+
+.location:hover {
+    transform: scale(1.05);
+}
+
+/* Contacts */
+
+.contacts {
+    height: 200px;
+}
+
+.contacts h2 {
+    margin-bottom: 60px;
+}
+
+.email-ecotag {
+    display: inline-block;
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.phone-ecotag {
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.location-ecotag {
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.instagram-ecotag {
+    width: 35px;
+    height: 35px;
+}
+
+.facebook-ecotag {
+    width: 35px;
+    height: 35px;
+}
+
+/* Footer */
+
+footer {
+    text-align: left;
+    padding: 20px;
+    line-height: 0;
+    display: flex;
+	flex-direction:column;
+}
+
+footer a {
+    color: seashell;
+    line-height: 1.5;
+}
