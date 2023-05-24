@@ -177,10 +177,6 @@ main {
 /* Locations */
 
 #Materialer {
-    background-image: url('../files/cupaclad201-vanguard-colegio-de-soro-13-amb-b.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 500px;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -190,28 +186,8 @@ main {
     margin-top: 100px;
 }
 
-.location-boxes {
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-}
-
-.location {
-    opacity: 1;
-    background-color: black;
-    width: 300px;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 25px;
-}
-
 #Materialer h2 {
     margin-bottom: 15px;
-}
-
-.location:hover {
-    transform: scale(1.05);
 }
 
 /* Contacts */
