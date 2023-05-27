@@ -9,7 +9,7 @@ html, body {
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
-    opacity: 1;
+    /*opacity: 1; */
 }
 
 body {
@@ -99,10 +99,9 @@ main {
 }
 
 .forside-text-header {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
     width: 1200px;
     /* width: 100%; */
-    opacity: 1;
     display:flex;
     align-items:center;
     flex-wrap:wrap;
@@ -122,6 +121,7 @@ main {
     max-width: 1200px;
     margin: auto;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .featured-job-items {
@@ -153,6 +153,11 @@ main {
     align-items: center;
 }
 
+#about p, a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .about-image {
     display: inline-flex;
     flex-wrap: wrap;
@@ -172,6 +177,22 @@ main {
 
 .about-image img:last-child {
     margin-left: 25px;
+}
+
+.about-DK {
+    display: block;
+    justify-content: center;
+}
+
+.DK-map-flag img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    justify-content: center;
+    vertical-align: middle;
+}
+.DK-map-flag p {
+    display: inline-block;
 }
 
 /* Locations */
@@ -232,6 +253,14 @@ main {
 .facebook-ecotag {
     width: 35px;
     height: 35px;
+}
+
+.DK-flag {
+    display: inline-block;
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
 }
 
 /* Footer */
