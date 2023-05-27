@@ -1,4 +1,4 @@
-# EcoTag website<img src="favicon.ico" align = "right" width=120 height=139 alt="" />
+# EcoTag website<img src="favicon.ico" align = "right" width=auto height=100 alt="" />
 
 ## Project Description
 
